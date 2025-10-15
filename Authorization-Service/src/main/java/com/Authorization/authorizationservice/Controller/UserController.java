@@ -21,7 +21,7 @@ public class UserController {
 	
 	@PostMapping("/post")
 	public String post() {
-		System.out.println("just commented!!");
+		System.out.println("just commented now!!!!");
 		return tokenDetails.generateToken("eggadisaikrishna.se@gmail.com");
 	}
 }
